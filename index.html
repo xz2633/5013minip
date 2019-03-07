@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Let's workout</title>
+  </head>
+
+  <body>
+    <main></main>
+    <!-- Reference to the components -->
+    <script src="tags/speakbox.tag" type="riot/tag"></script>
+    <script src="tags/workout.tag" type="riot/tag"></script>
+    <script src="tags/box.tag" type="riot/tag"></script>
+    <script src="tags/pastsentence.tag" type="riot/tag"></script>
+    <script src="tags/main.tag" type="riot/tag"></script>
+
+    <script src="tags/speakbox2.tag" type="riot/tag"></script>
+    <script src="tags/workout2.tag" type="riot/tag"></script>
+    <script src="tags/box2.tag" type="riot/tag"></script>
+    <script src="tags/pastsentence2.tag" type="riot/tag"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/riot@3.8/riot+compiler.min.js"></script>
+    <script>
+      var observable = riot.observable();
+      riot.mount('*')
+    </script>
+
+    <style>
+    body{
+
+      padding: 10em;
+    }
+    </style>
+  </body>
+
+</html>
